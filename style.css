@@ -1,1 +1,166 @@
+/* ========================================
+   ESTILOS DOS ELEMENTOS
+   ======================================== */
+:root {
+    --bg: #080b14;
+    --card: #111113;
+    --card-hover: #172033;
+    --primary: #7C3AED;
+    --secondary: #8b5cf6;
+    --text: #A1A1AA;
+    --muted: #94a3b8;
+    --border: rgba(255, 255, 255, 0.08);
+}
+h1,
+h2 {
+    color: #7C3AED;
+    font-family: "Segoe UI", sans-serif;
 
+}
+
+h1 {
+    color: #6c00f8e3;
+    font-size: 55px;
+    text-align: center;
+    font-family: "Jim Nightshade", cursive;
+
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p,
+li,
+label,
+a {
+    color: #e0e1dd;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    margin: 0 6px;
+    font-weight: 600;
+}
+
+body {
+    margin: 0;
+    background:
+        radial-gradient(circle at top left, rgba(3, 3, 3, 0.08), transparent 70%),
+        radial-gradient(circle at bottom right, rgba(139, 92, 246, 0.08), transparent 90%),
+        var(--bg);
+    font-family: "Segoe UI", sans-serif;
+    color: var(--text);
+}
+
+
+header,
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 1px 16px;
+}
+
+#hero,
+#sobre,
+#habilidades,
+#projetos,
+#contato {
+    background: rgba(17, 24, 39, 0.85);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 25px;
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+
+    backdrop-filter: blur(10px);
+}
+
+#habilidades,
+#projetos {
+    color: #e0e1dd;
+    font-family: sans-serif;
+}
+
+.perfil {
+    width: 600px;
+    height: 400px;
+
+    object-fit: cover;
+
+    border: 3px solid var(--primary);
+    border-radius: 30px;
+
+    display: block;
+    margin: 20px auto;
+
+    box-shadow:
+        0 0 30px rgba(111, 3, 211, 0.781),
+        0 0 80px rgba(62, 6, 100, 0.822);
+}
+
+#hero p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input,
+table,
+td {
+    border-radius: 6px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #778da9;
+    background: #0d1b2a;
+    color: #e0e1dd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #778da9;
+}
+
+footer {
+    background-color: #0d1b2a;
+}
+
+footer p {
+    color: #e0e1dd;
+}
+
+/* Classes */
+.cargo {
+    color: #e0e1dd;
+    font-weight: bold;
+}
+
+.link-social {
+    color: #e0e1dd;
+    text-decoration: none;
+}
+#botao-sobre {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #7C3AED;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
